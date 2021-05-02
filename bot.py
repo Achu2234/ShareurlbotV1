@@ -17,7 +17,7 @@ def start(client, message):
     message.reply_text(
         text=rep, 
         quote=False,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Updates Channel', url='https://t.me/Animemusicarchive6')],[InlineKeyboardButton("Search Here", switch_inline_query_current_chat=""),InlineKeyboardButton("Go Inline", switch_inline_query="")], [InlineKeyboardButton('Share Me', url='https://t.me/share/url?url=Click%20to%20CopY%E2%AC%87%EF%B8%8F%E2%AC%87%EF%B8%8F%20%0A%0Ahttps%3A//t.me/share/url%3Furl%3D%252A%252Ahello%2520sir%2520%25F0%259F%2591%258B%252A%252A%250A%250A__i%2520just%2520found%2520a%2520bot%2520to%2520convert__%2520%252A%252Atext%2520as%2520a%2520shareable%2520text%2520link%252A%252A%2520__format%2520%25F0%259F%25A4%25A9.%2520hope%2520it%2520would%2520be%2520very%2520helpful%2520for%2520u%2520too...%25F0%259F%25A4%2597%25F0%259F%25A4%2597__%250A%250A%252A%252Abot%2520link%253A%2520%2540shareururlbyyeagerist_bot%2520%25F0%259F%25A5%25B0%252A%252A')]]))
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Updates Channel', url='https://t.me/Animemusicarchive6')],[InlineKeyboardButton("Search Here", switch_inline_query_current_chat=""),InlineKeyboardButton("Go Inline", switch_inline_query="")], [InlineKeyboardButton('Share Me', url='https://t.me/share/url?url=%2A%2Ahello%20sir%20%F0%9F%91%8B%2A%2A%0A%0A__i%20just%20found%20a%20bot%20to%20convert__%20%2A%2Atext%20as%20a%20shareable%20text%20link%2A%2A%20__format%20%F0%9F%A4%A9.%20hope%20it%20would%20be%20very%20helpful%20for%20u%20too...%F0%9F%A4%97%F0%9F%A4%97__%0A%0A%2A%2Abot%20link%3A%20%40shareururlbyyeagerist_bot%20%F0%9F%A5%B0%2A%2A')]]))
 
 @bot.on_message(filters.command(['help']))
 def help(client, message):
