@@ -17,17 +17,17 @@ def start(client, message):
     message.reply_text(
         text=rep, 
         quote=False,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('SOURCE', url='https://github.com/ashkar2001/shareurlbotv1')],[InlineKeyboardButton("Search Here", switch_inline_query_current_chat=""),InlineKeyboardButton("Go Inline", switch_inline_query="")], [InlineKeyboardButton('Share Me', url='https://t.me/share/url?url=%2A%2AHello%20Plox%20%F0%9F%91%8B%2A%2A%0A%0A__I%20just%20found%20a%20Bot%20to%20convert__%20%2A%2AText%20as%20a%20Shareable%20Text%20Link%2A%2A%20__format%20%F0%9F%A4%A9.%20Hope%20it%20would%20be%20very%20helpful%20for%20u%20too...%F0%9F%A4%97%F0%9F%A4%97__%0A%0A%2A%2ABot%20Link%3A%20%40ShareUrlBot%20%F0%9F%A5%B0%2A%2A')]]))
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Updates Channel', url='https://t.me/Animemusicarchive6')],[InlineKeyboardButton("Search Here", switch_inline_query_current_chat=""),InlineKeyboardButton("Go Inline", switch_inline_query="")], [InlineKeyboardButton('Share Me', url='https://t.me/share/url?url=Click%20to%20CopY%E2%AC%87%EF%B8%8F%E2%AC%87%EF%B8%8F%20%0A%0Ahttps%3A//t.me/share/url%3Furl%3D%252A%252Ahello%2520sir%2520%25F0%259F%2591%258B%252A%252A%250A%250A__i%2520just%2520found%2520a%2520bot%2520to%2520convert__%2520%252A%252Atext%2520as%2520a%2520shareable%2520text%2520link%252A%252A%2520__format%2520%25F0%259F%25A4%25A9.%2520hope%2520it%2520would%2520be%2520very%2520helpful%2520for%2520u%2520too...%25F0%259F%25A4%2597%25F0%259F%25A4%2597__%250A%250A%252A%252Abot%2520link%253A%2520%2540shareururlbyyeagerist_bot%2520%25F0%259F%25A5%25B0%252A%252A')]]))
 
 @bot.on_message(filters.command(['help']))
 def help(client, message):
-    message.reply_text("**Nothing Complicated..🤓**\n\n**For PM:**\n__Send your desired text to this bot to get your link.__\n\n**For Inline Method:**\n__Type__  `@ShareUrlBot your text`\n__in any chats keyboard and hit the inline result.__", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('SOURCE', url='https://github.com/ashkar2001/shareurlbotv1')]]))
+    message.reply_text("**Nothing Complicated..🤓**\n\n**For PM:**\n__Send your desired text to this bot to get your link.__\n\n**For Inline Method:**\n__Type__  `@Shareururlbyyeagerist_bot your text`\n__in any chats keyboard and hit the inline result.__", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Channel', url='https://t.me/Animemusicarchive6')]]))
 
 @bot.on_message(filters.command(['about']))
 def about(client, message):
     message.reply_text(f"""**• Bot Info •**
-**My Name** :- `Share Url Generator`
-**Creator** :- @B_woy
+**My Name** :- `Yᴇᴀɢᴇʀɪsᴛ Share Url Generator`
+**Creator** :- @Amalbiju154
 **Language** :- `Python3`
 **Library** :- `Pyrogram 1.2.8`
 **Server** :- `Heroku.com`
@@ -37,7 +37,7 @@ def about(client, message):
 **Name** :- `{message.from_user.first_name} {message.from_user.last_name}`
 **ID** :- `{message.from_user.id}`
 **Username** :- @{message.from_user.username}
-**DC ID** :- `{message.from_user.dc_id}`""", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('SOURCE', url = 'https://github.com/ashkar2001/shareurlbotv1')]]))
+**DC ID** :- `{message.from_user.dc_id}`""", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('Channel', url = 'https://t.me/Animemusicarchive6')]]))
 
 
 @bot.on_message(filters.text)
@@ -56,7 +56,7 @@ def inline(client, message):
                      reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Search Here", switch_inline_query_current_chat=""),InlineKeyboardButton("Go Inline", switch_inline_query="")]]),
                      description ="How t0 usE meH !!",
                      thumb_url="https://telegra.ph/file/99d8f16a777c2ee2781c1.jpg",
-                     input_message_content = InputTextMessageContent(message_text ="**Nothing Complicated..**🤓\n\nType `@ShareUrlBot your text` \nin any chats keyboard and hit the inline result.\n\nNote: __U can also use Me in PM!__"))
+                     input_message_content = InputTextMessageContent(message_text ="**Nothing Complicated..**🤓\n\nType `@Shareururlbyyeagerist_bot your text` \nin any chats keyboard and hit the inline result.\n\nNote: __U can also use Me in PM!__"))
                 ] 
         message.answer(result) 
         return
