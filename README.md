@@ -13,7 +13,7 @@ A Telegram bot to convert Text as a shareable text link format..🤗
 ### Deploy to Heroku
 Click the below button to deploy it on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ashkar2001/shareurlbotv1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/ShareurlbotV1)
 
 ### Deploy in your VPS
 
